@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "220649831521",
+    "project_id": "flutter-create-mywallet",
+    "storage_bucket": "flutter-create-mywallet.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220649831521:android:69a0eed881d3a0f3c3fe20",
+        "android_client_info": {
+          "package_name": "com.example.mywallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRtrxQqF7YFotLHwoXlE22mIkKOoyj82A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

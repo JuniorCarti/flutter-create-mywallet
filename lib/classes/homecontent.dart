@@ -1,7 +1,10 @@
 // Importing necessary packages and files.
 import 'package:flutter/material.dart'; // Flutter's material design package for UI components.
+import 'package:mywallet/screens/pages/account.dart';
+import 'package:mywallet/screens/pages/mobile_recharge.dart';
 import 'package:mywallet/screens/pages/pay_bill.dart'; // Pay the Bill page.
-import 'package:mywallet/screens/pages/transfer.dart'; // Transfer page.
+import 'package:mywallet/screens/pages/transfer.dart';
+import 'package:mywallet/screens/pages/withdraw.dart'; // Transfer page.
 
 // Homecontent widget represents the main screen of the app.
 class Homecontent extends StatelessWidget {
@@ -40,26 +43,26 @@ class Homecontent extends StatelessWidget {
         mainAxisSpacing: 15, // Spacing between rows.
         children: [
           // Menu items with icons, labels, and navigation actions.
-          // _buildMenuItem(
-          //   Icons.account_balance_wallet,
-          //   'Account\nand Card',
-          //   () => Navigator.push(context, MaterialPageRoute(builder: (context) => const AccountAndCardPage())),
-          // ),
+          _buildMenuItem(
+            Icons.account_balance_wallet,
+            'Account\nand Card',
+            () => Navigator.push(context, MaterialPageRoute(builder: (context) => const AccountAndCardPage())),
+          ),
           _buildMenuItem(
             Icons.swap_horiz,
             'Transfer',
             () => Navigator.push(context, MaterialPageRoute(builder: (context) => const TransferPage())),
           ),
-          // _buildMenuItem(
-          //   Icons.attach_money,
-          //   'Withdraw',
-          //   () => Navigator.push(context, MaterialPageRoute(builder: (context) => const WithdrawPage())),
-          // ),
-          // _buildMenuItem(
-          //   Icons.phone_android,
-          //   'Mobile\nrecharge',
-          //   () => Navigator.push(context, MaterialPageRoute(builder: (context) => const MobileRechargePage())),
-          // ),
+          _buildMenuItem(
+            Icons.attach_money,
+            'Withdraw',
+            () => Navigator.push(context, MaterialPageRoute(builder: (context) => const WithdrawPage())),
+          ),
+          _buildMenuItem(
+            Icons.phone_android,
+            'Mobile\nrecharge',
+            () => Navigator.push(context, MaterialPageRoute(builder: (context) => const MobileRechargePage())),
+          ),
           _buildMenuItem(
             Icons.receipt,
             'Pay the bill',
@@ -116,7 +119,7 @@ Widget _upperText() {
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         Text(
-          'Gega!',
+          'Ridge!',
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.orangeAccent),
         ),
         SizedBox(height: 20), // Spacing between texts.
