@@ -21,13 +21,19 @@ MyWallet is a modern and intuitive personal finance management mobile applicatio
 ## 📸 Screenshots
 
 ### 🟣 Splash Screen
-(assets/images/Splash Screen.png)
+![Splash Screen](assets/images/Splash_Screen.png)
 
 ### 💳 Add Card
-![Add Card Screen](assets/images/add_card_screen.png)
+![Add Card Screen](assets/images/Cards_Screen.png)
 
 ### 🔐 Login
-![Login Screen](assets/images/login_screen.png)
+![Login Screen](assets/images/Login_Screen.png)
+
+### 🔐 Firebase Screen
+![Firebase Screen](assets/images/Firebase_Screen.png)
+
+### 🔐 Paybill Screen
+![Paybill Screen](assets/images/Paybill_Screen.png)
 
 ---
 ## 🧠 Tech Stack
