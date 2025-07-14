@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # flutter-create-mywallet
 =======
 # mywallet
